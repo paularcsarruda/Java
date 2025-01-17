@@ -1,3 +1,5 @@
+![1601814273575](https://github.com/user-attachments/assets/78ff60b6-20b9-49fe-98e0-0c852a6c52dc)
+
 # Anotações e Exercícios de JAVA
 
 Bem-vindo(a) ao repositório de **Anotações e Exercícios de JAVA**! Aqui você encontrará uma coleção de anotações sobre conceitos fundamentais e exercícios práticos para aprimorar seus conhecimentos na linguagem de programação Java.
@@ -19,7 +21,7 @@ Este repositório foi criado com o objetivo de organizar e compartilhar meus est
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/anotacoes-exercicios-java.git
+   git clone https://github.com/paularcsarruda/Java.git
    ```
 2. Acesse os diretórios de anotações ou exercícios e comece a estudar!
 
