@@ -21,26 +21,17 @@ public class Exercicio4 {
 
         switch (weekDay) {
             case 1:
-                System.out.println("Domingo. Fim de semana.");
+            case 7:
+                System.out.println("Fim de semana.");
                 break;
             case 2:
-                System.out.println("Segunda-Feira. Dia útil.");
-                break;
-            case 3:
-                System.out.println("Terça-Feira. Dia útil.");
-                break;
+            case 3:  
             case 4: 
-                System.out.println("Quarta-Feira. Dia útil.");
-                break;
             case 5:
-                System.out.println("Quinta-Feira. Dia útil.");
-                break;
             case 6: 
-                System.out.println("Sexta-Feira. Dia útil.");
+                System.out.println("Dia útil.");
                 break;
-            case 7:
-                System.out.println("Sábado. Fim de semana.");
-                break;
+            
         }
         scanner.close();
     }
