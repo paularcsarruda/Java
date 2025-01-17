@@ -1,9 +1,11 @@
 /*
- * Exercício 3: Identificação de Paridade com Strings
+ * Exercício 5: Identificação de dia útil
  * 
- * Peça ao usuário para inserir um número.
- * Verifique se o número é par ou ímpar e exiba a informação.
- * Use uma string para armazenar o resulado e exibi-la.
+ * Peça ao usuário para unserir um número de 1-7,
+ * respresentando os dias da semana.
+ * Use switch para verificar se o dia é um dia útil (segunda a sexta)
+ * ou final de semana (sábado e domengo).
+ * Exiba uma mensagem correspondente.
  */
 
 import java.util.Scanner;
@@ -11,45 +13,35 @@ import java.util.Scanner;
 public class Exercicio4 {
     
     public static void main(String[] args) {
-        
+       
         Scanner scanner = new Scanner(System.in);
         
-        System.out.print("Informe um número inteiro entre 1 - 10: ");
-        int number = scanner.nextInt();
+        System.out.print("Informe um número inteiro entre 1 - 7: ");
+        int weekDay = scanner.nextInt();
 
-        switch (number) {
+        switch (weekDay) {
             case 1:
-                System.out.println("Número Impar.");
+                System.out.println("Domingo. Fim de semana.");
                 break;
             case 2:
-                System.out.println("Número Par.");
+                System.out.println("Segunda-Feira. Dia útil.");
                 break;
             case 3:
-                System.out.println("Número Impar.");
+                System.out.println("Terça-Feira. Dia útil.");
                 break;
-            case 4:
-                System.out.println("Número Par.");
+            case 4: 
+                System.out.println("Quarta-Feira. Dia útil.");
                 break;
             case 5:
-                System.out.println("Número Impar.");
+                System.out.println("Quinta-Feira. Dia útil.");
                 break;
-            case 6:
-                System.out.println("Número Pa.r");
+            case 6: 
+                System.out.println("Sexta-Feira. Dia útil.");
                 break;
             case 7:
-                System.out.println("Número Impar.");
-                break;
-            case 8:
-                System.out.println("Número Par.");
-                break;
-            case 9:
-                System.out.println("Número Impar.");
-                break;
-            case 10:
-                System.out.println("Número Par.");
+                System.out.println("Sábado. Fim de semana.");
                 break;
         }
         scanner.close();
-
     }
 }
